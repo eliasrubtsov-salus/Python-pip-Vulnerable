@@ -1,19 +1,13 @@
-# Intentionally vulnerable packages for testing vulnerability detection
-# DO NOT use in production!
-
-# Known vulnerabilities in older versions
-flask==2.0.1  # CVE-2023-30861: Cookie parsing vulnerability
-requests==2.25.0  # CVE-2023-32681: Proxy-Authorization header leak
-pillow==8.0.0  # Multiple CVEs including buffer overflows
-cryptography==3.3.0  # CVE-2023-23931: Cipher.update_into vulnerable
-pyyaml==5.3.1  # CVE-2020-14343: Arbitrary code execution
-jinja2==2.11.0  # CVE-2020-28493: ReDoS vulnerability
-django==3.1.0  # Multiple CVEs in older versions
-urllib3==1.26.0  # CVE-2023-43804: Cookie request header leak
-certifi==2020.12.5  # Outdated root certificates
-setuptools==50.0.0  # CVE-2022-40897: Regular expression DoS
-
-# Additional vulnerable packages
-sqlparse==0.4.0  # CVE-2021-32839: ReDoS vulnerability
-notebook==6.1.5  # CVE-2021-32797: XSS vulnerabilities
-ipython==7.16.0  # CVE-2022-21699: Execution with unnecessary privileges
+certifi2023.7.22
+cryptography42.0.2
+django5.2.8
+flask2.3.2
+ipython8.10.0
+jinja23.1.6
+notebook6.4.12
+pillow10.3.0
+pyyaml5.4
+requests2.32.4
+setuptools78.1.1
+sqlparse0.5.0
+urllib32.6.3
